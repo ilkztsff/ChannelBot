@@ -8,6 +8,15 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+aiogram = "^3.6.0"
+fastapi = "^0.111.0"
+python-dotenv = "^1.0.1"
+redis = "^5.0.4"
+uvicorn = "^0.29.0"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
+mypy = "^1.10.0"
 
 [build-system]
 requires = ["poetry-core"]
