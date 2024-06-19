@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "channelbot"
+version = "0.1.0"
+description = "A bot for managing your telegram channel"
+authors = ["Ilya Kuznetsov <ilkztsff@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
