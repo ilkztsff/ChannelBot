@@ -40,11 +40,5 @@ jobs:
           installer-parallel: true
       - name: Install dependencies
         run: poetry install
-      - name: Install mypy
-        run: pip install mypy
       - name: Run mypy
-        uses: sasanquaneuf/mypy-github-action@releases/v1
-        with:
-          checkName: 'mypy'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: poetry run mypy -p channelbot
