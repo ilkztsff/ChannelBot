@@ -31,6 +31,15 @@ jobs:
           architecture: x64
       - name: Checkout
         uses: actions/checkout@v1
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+        with:
+          version: latest
+          virtualenvs-create: true
+          virtualenvs-in-project: false
+          installer-parallel: true
+      - name: Install dependencies
+        run: poetry install
       - name: Install mypy
         run: pip install mypy
       - name: Run mypy
