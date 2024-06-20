@@ -3,7 +3,7 @@ from os import environ
 import gettext
 
 
-_ = lambda x: x
+_ = gettext.gettext
 
 load_dotenv()
 
