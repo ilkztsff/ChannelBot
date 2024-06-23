@@ -1,0 +1,20 @@
+# Messages translation.
+# Copyright (C) 2024 Ilya Kuznetsov
+# This file is distributed under the same license as the ChannelBot.
+# Ilya Kuznetsov <ilkztsff@gmail.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.0\n"
+"Report-Msgid-Bugs-To: ilkztsff@gmail.com\n"
+"POT-Creation-Date: 2024-06-23 15:13+0300\n"
+"PO-Revision-Date: 2024-06-23 15:15+0300\n"
+"Last-Translator: Ilya Kuznetsov <ilkztsff@gmail.com>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: channelbot/handlers/admin.py:12
+msgid "Hello! Here you can anonymously communicate with your followers. Just choose one below to start chatting. If this list is empty, nobody is texting you"
+msgstr "Привет! Здесь ты можешь анонимно пообщеаться с подписчиками, которые тебе пишут. Просто выбери из списка внизу. Если список пустой, значит никто не пишет"
