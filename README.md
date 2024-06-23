@@ -3,6 +3,9 @@
         <img alt="license" src="https://img.shields.io/github/license/ilkztsff/ChannelBot?label=License&color=yellow&style=for-the-badge">
     </a>
     <img alt="python" src="https://img.shields.io/badge/3.11.9-yellow?color=yellow&label=Python&style=for-the-badge">
+    <a href="https://github.com/ilkztsff/ChannelBot/actions/workflows/check.yml">
+      <img src="https://img.shields.io/github/actions/workflow/status/ilkztsff/ChannelBot/check.yml?branch=dev&style=for-the-badge&label=linter&color=yellow">
+    </a>
 </p>
 
 <h1 align="center">ChannelBot</h1>
