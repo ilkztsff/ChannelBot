@@ -1,9 +1,8 @@
 from dotenv import load_dotenv
+
 from os import environ
 import gettext
 
-
-_ = gettext.gettext
 
 load_dotenv()
 
@@ -20,4 +19,10 @@ REDIS_PASSWORD: str = environ['REDIS_PASSWORD']
 CHANNEL_ID = int(environ['CHANNEL_ID'])
 GROUP_ID = int(environ['GROUP_ID'])
 
-TIMEOUT = int(environ.get('TIMEOUT', 10))
+TIMEOUT = int(environ.get('TIMEOUT', 0))
+LANGUAGE: str = environ.get('LANGUAGE', 'en')
+
+
+translation = gettext.translation('messages', localedir='./locales', languages=[LANGUAGE])
+translation.install()
+_ = translation.gettext
