@@ -1,4 +1,4 @@
-<p align="center">
+<div align="center">
     <a href="https://github.com/ilkztsff/ChannelBot/blob/dev/LICENSE">
         <img alt="license" src="https://img.shields.io/github/license/ilkztsff/ChannelBot?label=License&color=yellow&style=for-the-badge">
     </a>
@@ -6,7 +6,7 @@
     <a href="https://github.com/ilkztsff/ChannelBot/actions/workflows/check.yml">
       <img src="https://img.shields.io/github/actions/workflow/status/ilkztsff/ChannelBot/check.yml?branch=dev&style=for-the-badge&label=linter&color=yellow">
     </a>
-</p>
+</div>
 
 <h1 align="center">ChannelBot</h1>
 
