@@ -5,7 +5,7 @@
     <img alt="python" src="https://img.shields.io/badge/3.11.9-yellow?color=yellow&label=Python&style=for-the-badge">
 </p>
 
-<h1 align="center">TheEighth</h1>
+<h1 align="center">ChannelBot</h1>
 
 
 ## ✍ About
