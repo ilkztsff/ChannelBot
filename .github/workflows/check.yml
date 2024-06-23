@@ -21,7 +21,7 @@ jobs:
           checkName: 'flake8'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-mypy:
+  mypy:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Python
